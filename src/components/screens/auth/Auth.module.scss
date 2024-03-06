@@ -1,0 +1,15 @@
+@import 'src/assets/styles/variables';
+
+.wrapperButtons {
+	margin: 15px 0 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	> div {
+		width: 48%;
+		> button {
+			width: 100%;
+		}
+	}
+}
